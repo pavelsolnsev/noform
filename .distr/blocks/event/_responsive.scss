@@ -1,0 +1,47 @@
+
+@media (max-width: 1400px) {
+  .event {
+      &__el {
+          &-title {
+              font-size: 16px;
+              min-height: 60px;
+          }
+          &-img {
+              height: 15vw;
+          }
+          &-title2 {
+              font-size: 18px;
+          }
+          &-text {
+              font-size: 16px;
+          }
+          .btn {
+              font-size: 14px;
+          }
+      }
+  }
+}
+
+@media (max-width: 991px) {
+    .event {
+        &__el {
+            &-img {
+                height: 30vw;
+            }
+        }
+        p {
+            font-size: 16px;
+            max-width: 100%;
+        }
+    }
+}
+
+@media (max-width: 767px) {
+    .event {
+        &__el {
+            &-img {
+                height: 50vw;
+            }
+        }
+    }
+}

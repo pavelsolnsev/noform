@@ -1,0 +1,192 @@
+.step {
+    color:#fff;
+    background: var(--c-main);
+    padding-bottom: 150px;
+    &__bg1 {
+        width: 505px;
+        height: 505px;
+        background: rgba(159, 245, 50, 0.2);
+        filter: blur(170px);
+        border-radius: 50%;
+        position: absolute;
+        top: 0;
+        left: 50%;
+        margin-left: -800px;
+    }
+    &__bg3 {
+        width: 505px;
+        height: 505px;
+        background: rgba(50, 245, 233, 0.2);
+        filter: blur(170px);
+        border-radius: 50%;
+        position: absolute;
+        top: 1300px;
+        left: 50%;
+        margin-left: -750px;
+    }
+    &__bg2 {
+        width: 505px;
+        height: 505px;
+        background: rgba(245, 179, 50, 0.2);
+        filter: blur(170px);
+        border-radius: 50%;
+        position: absolute;
+        top:280px;
+        right: 50%;
+        margin-right: -940px;
+    }
+    &__img1 {
+        position: absolute;
+        top: 140px;
+        right: 50%;
+        margin-right: -840px;
+        z-index: 1;
+    }
+    &__img2 {
+        position: absolute;
+        top: 310px;
+        left: 50%;
+        margin-left: -790px;
+        z-index: 1;
+    }
+    &__img3 {
+        position: absolute;
+        top: 640px;
+        left: 50%;
+        margin-left: -630px;
+        z-index: 1;
+    }
+    &__img4 {
+        position: absolute;
+        top: 1300px;
+        left: 50%;
+        margin-left: -600px;
+        z-index: 1;
+    }
+    &__img5 {
+        position: absolute;
+        top: 1550px;
+        left: 50%;
+        margin-left: -490px;
+        z-index: 1;
+    }
+    &__img6 {
+        position: absolute;
+        top: 900px;
+        left: 50%;
+        margin-left: -160px;
+        z-index: 1;
+    }
+    &__img7 {
+        position: absolute;
+        top: 1850px;
+        right: 50%;
+        margin-right: -320px;
+        z-index: 1;
+    }
+    &__line1 {
+        position: absolute;
+        top: 380px;
+        left: 50%;
+        margin-left: -750px;
+    }
+    &__line2 {
+        position: absolute;
+        top: 1000px;
+        left: 50%;
+        margin-left: -450px;
+    }
+    .h1 {
+        color:#fff;
+    }
+    &__els {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    &__el {
+        border-radius: 5px;
+        padding: 40px;
+        padding-left: 200px;
+        padding-bottom: 0;
+        position: relative;
+        &--1 {
+            margin-left: 130px;
+            max-width: 950px;
+            height: 263px;
+            background-image: url(../img/step/ramka1.png);
+            background-repeat: no-repeat;
+            background-size: contain;
+        }
+        &--2 {
+            margin-left: auto;
+            max-width: 647px;
+            margin-top: 210px;
+            height: 352px;
+            background-image: url(../img/step/ramka2.png);
+            background-repeat: no-repeat;
+            background-size: contain;
+        }
+        &--3 {
+            max-width: 637px;
+            margin-top: -180px;
+            height: 324px;
+            background-image: url(../img/step/ramka3.png);
+            background-repeat: no-repeat;
+            background-size: contain;
+        }
+        &--4 {
+            margin-left: auto;
+            right: 30px;
+            margin-top: 120px;
+            max-width: 697px;
+            height: 361px;
+            background-image: url(../img/step/ramka4.png);
+            background-repeat: no-repeat;
+            background-size: contain;
+        }
+        &--5 {
+            margin-left: 130px;
+            margin-top: 120px;
+            max-width: 888px;
+            height: 212px;
+            background-image: url(../img/step/ramka5.png);
+            background-repeat: no-repeat;
+            background-size: contain;
+        }
+        &-img {
+            position: absolute;
+            left: 50px;
+            top: 50%;
+            transform: translateY(-50%);
+        }
+        &-title {
+            text-transform: uppercase;
+            font-weight: bold;
+            color:var(--c-yellow);
+            font-size: 36px;
+            line-height: 1;
+            margin-bottom: 15px;
+        }
+        ul {
+            li {
+                position: relative;
+                font-size: 22px;
+                line-height: 1.4;
+                margin-bottom: 10px;
+                padding-left: 25px;
+                &:before {
+                    content: '';
+                    position: absolute;
+                    top: 4px;
+                    left: 0;
+                    background-image: url(../img/step/check1.svg);
+                    width: 18px;
+                    height: 18px;
+                    background-repeat: no-repeat;
+                    background-size: contain;
+                }
+            }
+        }
+    }
+}

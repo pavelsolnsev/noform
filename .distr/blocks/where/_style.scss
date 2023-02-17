@@ -1,0 +1,25 @@
+.where {
+    background: var(--c-main);
+    color:#fff;
+    z-index: 1;
+    &__bg {
+        position: absolute;
+        width: 505px;
+        height: 505px;
+        border-radius: 50%;
+        background: rgba(245, 167, 50, 0.2);
+        filter: blur(200px);
+        left: 50%;
+        margin-left: -1000px;
+        top: -120px;
+    }
+    .h1 {
+        color:#fff;
+    }
+    &__img {
+        position: absolute;
+        top: -50px;
+        right: 50%;
+        margin-right: -850px;
+    }
+}

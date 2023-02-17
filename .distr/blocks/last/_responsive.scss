@@ -1,0 +1,17 @@
+
+@media (max-width: 1400px) {
+    .last {
+        .first__img {
+            margin-right: 0;
+        }
+    }
+}
+
+@media (max-width: 991px) {
+    .last {
+        padding-top: 0!important;
+        .first__img {
+            margin-right: auto;
+        }
+    }
+}

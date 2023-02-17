@@ -1,0 +1,106 @@
+@media (max-width: 1400px) {
+    .programm {
+        &__img4 {
+            display: none;
+        }
+    }
+}
+
+@media (max-width: 1199px) {
+  .h1 {
+      font-size: 38px;
+  }
+  .programm {
+      min-height: 1300px;
+      &__el {
+          .btn {
+              font-size: 16px;
+          }
+          &-desc {
+            padding: 15px;
+            padding-bottom: 30px;
+            min-height: 130px;
+          }
+          &-title {
+              font-size: 20px;
+              span {
+                  font-size: 16px;
+                  margin-top: 5px;
+              }
+          }
+          &-trigger {
+              width: 30px;
+          }
+          ul {
+              padding-bottom: 15px;
+              li {
+                  font-size: 16px;
+                  &:before {
+                      top: 0;
+                  }
+              }
+          }
+          &-text {
+              padding-top: 20px;
+              padding-bottom: 30px;
+              p {
+                  font-size: 16px;
+              }
+          }
+          &--mod {
+              .programm__el-title {
+                  font-size: 18px;
+              }
+          }
+      }
+      &__btns {
+          margin-top: 15px;
+      }
+  }
+}
+
+@media (max-width: 1100px) {
+    .padded {
+        padding-top: 60px;
+        padding-bottom: 60px;
+    }
+    .programm {
+        background: var(--c-yellow);
+        min-height: auto;
+        &__img3, &__img2, &__img {
+            display: none;
+        }
+        &__el {
+            &-wrap {
+                width: 50%;
+                min-width: 50%;
+            }
+            &-img {
+                height: 25vw;
+            }
+        }
+        &__img2 {
+            display: none;
+        }
+    }
+    .h1 {
+        margin-bottom: 15px;
+    }
+}
+
+@media (max-width: 767px) {
+    .h1 {
+        font-size: 26px;
+    }
+    .programm {
+        &__el {
+            &-wrap {
+                width: 100%;
+                margin-bottom: 30px!important;
+            }
+            &-img {
+                height: 55vw;
+            }
+        }
+    }
+}

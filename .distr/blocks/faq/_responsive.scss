@@ -1,0 +1,24 @@
+@media (max-width: 991px) {
+    .faq {
+        &__ask {
+            font-size: 16px;
+            min-height: 60px;
+            padding: 10px 0;
+        }
+
+        &__answer {
+            font-size: 16px;
+            padding-right: 0;
+
+            &-item {
+                &.item-title {
+                    font-size: 16px;
+
+                    &.it-2 {
+                        margin-top: 20px;
+                    }
+                }
+            }
+        }
+    }
+}

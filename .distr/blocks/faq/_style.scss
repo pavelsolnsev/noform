@@ -1,0 +1,113 @@
+.faq {
+    background: var(--c-main);
+
+    &__bg1 {
+        position: absolute;
+        width: 505px;
+        height: 505px;
+        border-radius: 50%;
+        background: rgba(245, 232, 50, 0.17);
+        filter: blur(100px);
+        top: 100px;
+        right: 50%;
+        margin-right: -1180px;
+    }
+
+    .h1 {
+        color: #fff;
+    }
+
+    &__line {
+        border-bottom: 1px solid #FFFFFF;
+        cursor: pointer;
+
+        &.on {
+            .faq__ask {
+                &:after {
+                    background-image: url(../img/faq/minus.svg);
+                }
+            }
+        }
+    }
+
+    .container {
+        max-width: 980px;
+    }
+
+    &__ask {
+        min-height: 95px;
+        display: flex;
+        align-items: center;
+        letter-spacing: 0.01em;
+        font-size: 30px;
+        font-weight: bold;
+        color: var(--c-yellow);
+        text-transform: uppercase;
+        justify-content: space-between;
+
+        &:after {
+            content: '';
+            display: inline-block;
+            margin-left: 15px;
+            background-image: url(../img/faq/plus.svg);
+            width: 31px;
+            min-width: 31px;
+            height: 33px;
+            background-repeat: no-repeat;
+            background-size: contain;
+            background-position: center right;
+        }
+    }
+
+    &__answer {
+        display: none;
+        font-size: 22px;
+        line-height: 1.5;
+        margin-bottom: 30px;
+        color: #fff;
+        padding-right: 100px;
+
+        &-item {
+            position: relative;
+            padding-left: 25px;
+            margin-bottom: 10px;
+
+            &:before {
+                content: '';
+                position: absolute;
+                top: 4px;
+                left: 0;
+                background-image: url(../img/step/check1.svg);
+                width: 18px;
+                height: 18px;
+                background-repeat: no-repeat;
+                background-size: contain;
+            }
+
+            &:last-child {
+                margin-bottom: 0;
+            }
+
+            &.item-title {
+                font-size: 24px;
+                font-weight: bold;
+                color: var(--c-yellow);
+                padding-left: 0;
+
+                &:before {
+                    display: none;
+                }
+
+                &.it-2 {
+                    margin-top: 25px;
+                }
+            }
+        }
+    }
+
+    .btn {
+        img {
+            filter: brightness(0)
+        }
+    }
+}

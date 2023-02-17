@@ -1,0 +1,152 @@
+@media (max-width: 1199px) {
+  .page-thanks {
+    .first {
+      padding-top: 180px;
+      padding-bottom: 100px;
+
+      h1 {
+        font-size: 68px;
+        margin-bottom: 25px;
+      }
+
+      &__img {
+        max-width: 640px;
+        margin-right: -606px;
+      }
+
+      &__buttons {
+        flex-direction: column;
+        justify-content: center;
+        margin-left: 0;
+        margin-bottom: 30px;
+
+        &-btn {
+          max-width: 300px;
+          height: 66px;
+
+          &.vk {
+            margin-bottom: 15px;
+          }
+        }
+      }
+
+      &__descr {
+        max-width: 390px;
+        font-size: 22px;
+        margin-left: 0;
+      }
+    }
+  }
+}
+
+@media (max-width: 991px) {
+  .thanks {
+
+    .first {
+      padding-top: 130px;
+      padding-bottom: 80px;
+
+      h1 {
+        font-size: 58px;
+        margin-bottom: 25px;
+      }
+
+      &__img {
+        max-width: 580px;
+        margin-right: -636px;
+      }
+
+      &__buttons {
+        flex-direction: column;
+        justify-content: center;
+        margin-left: 0;
+        margin-bottom: 30px;
+
+        &-btn {
+          max-width: 300px;
+          height: 66px;
+
+          &.vk {
+            margin-bottom: 15px;
+          }
+        }
+      }
+
+      &__descr {
+        max-width: 370px;
+        font-size: 20px;
+        margin-left: 0;
+      }
+    }
+
+    &__ps {
+      bottom: 10vh;
+    }
+  }
+}
+
+@media (max-width: 800px) {
+  .page-thanks {
+    .callback {
+      display: none !important;
+    }
+  }
+}
+
+@media (max-width: 767px) {
+  .page-thanks {
+    .btn-row {
+      display: none !important;
+    }
+
+    .first {
+      padding-top: 110px;
+      padding-bottom: 40vh;
+
+      h1 {
+        font-size: 48px;
+        text-align: center;
+        margin-bottom: 25px;
+      }
+
+      &__img {
+        display: none;
+      }
+
+      &__buttons {
+        max-width: 100%;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 30px;
+
+        &-btn {
+          max-width: 300px;
+          height: 66px;
+
+          &.vk {
+            margin-bottom: 15px;
+          }
+        }
+      }
+
+      &__descr {
+        max-width: 320px;
+        font-size: 18px;
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+      }
+    }
+  }
+
+  .thanks {
+
+    &__ps {
+      position: static;
+      display: block;
+      font-size: 14px;
+      text-align: center;
+    }
+  }
+}

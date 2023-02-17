@@ -1,0 +1,77 @@
+@import "_variables";
+
+/* ******* */
+/* Layout */
+body {
+  min-width: $mobile-min-width;
+}
+
+@media (max-width: 1199px) {
+} // 1199
+
+@media (max-width: 991px) {
+  body {
+    p {
+      font-size: 16px;
+    }
+  }
+} // 991
+
+@media (max-width: 575px) {
+  .btn-row {
+    display: flex !important;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 12;
+  }
+  .btn-row .btn {
+    height: 60px;
+    border-radius: 0;
+    width: 100%;
+    font-size: 12px;
+    text-align: center;
+    &:before {
+      display: none;
+    }
+    span {
+      border-radius: 0;
+    }
+  }
+  .form {
+    input {
+      padding-left: 15px;
+      padding-right: 15px;
+      font-size: 16px;
+    }
+  }
+  input::-webkit-input-placeholder,
+  textarea::-webkit-input-placeholder {
+    font-size: 16px;
+  }
+  input::-moz-placeholder,
+  textarea::-moz-placeholder {
+    font-size: 16px;
+  }
+  input:-ms-input-placeholder,
+  textarea:-ms-input-placeholder {
+    font-size: 16px;
+  }
+} // 767
+
+@import "header/_responsive";
+@import "first/_responsive";
+@import "programm/_responsive";
+@import "people/_responsive";
+@import "plus/_responsive";
+@import "step/_responsive";
+@import "resume/_responsive";
+@import "event/_responsive";
+@import "where/_responsive";
+@import "partner/_responsive";
+@import "faq/_responsive";
+@import "last/_responsive";
+@import "footer/_responsive";
+@import "popup/_responsive";
+

@@ -1,0 +1,88 @@
+.fancybox-content {
+  background: none;
+  padding: 0;
+}
+.compensate-for-scrollbar {
+  margin-right: 0 !important;
+}
+#modal-form {
+  background: var(--c-main);
+  max-width: 450px;
+  padding: 40px;
+  padding-top: 70px;
+  border-radius: 20px;
+  box-shadow: 0px 32px 24px rgba(56, 56, 62, 0.25);
+  .form__lines {
+    position: relative;
+  }
+  .last__feedback {
+    position: static;
+    padding: 0;
+    margin: 0;
+    border-radius: 0;
+    box-shadow: none;
+    width: 100%;
+    max-width: 100%;
+    border: none;
+    .h1 {
+      font-size: 24px;
+      font-weight: 500;
+      margin-bottom: 25px;
+      text-align: center;
+      color: #fff;
+    }
+  }
+  .form__footer {
+    max-width: 100%;
+  }
+  .col-lg-3 {
+    width: 100%;
+    flex: none;
+    max-width: 100%;
+  }
+  .checkbox input:checked + .checkbox__input {
+    background-image: url(../img/form1/check.svg);
+  }
+}
+.fancybox-slide--html .fancybox-close-small {
+  svg {
+    display: none;
+  }
+  background-image: url(../img/header/close.svg);
+  width: 35px;
+  height: 35px;
+  background-repeat: no-repeat;
+  background-position: center;
+  top: 20px;
+  right: 20px;
+  background-color: var(--c-main);
+  border-radius: 50%;
+  &:hover {
+    background-color: var(--c-red);
+  }
+}
+#modal-thanks {
+  width: 100%;
+  max-width: 820px;
+  background: rgba(255, 255, 255, 0.75);
+  box-shadow: 0px 4px 25px rgba(148, 188, 249, 0.46);
+  backdrop-filter: blur(4px);
+  border-radius: 75px;
+  padding: 70px;
+  h2 {
+    text-align: center;
+    font-size: 48px;
+    font-weight: 500;
+    line-height: 1.1;
+    margin-bottom: 35px;
+  }
+  p {
+    text-align: center;
+    font-size: 18px;
+    line-height: 1.3;
+    margin-bottom: 40px;
+  }
+  .fancybox-close-small {
+    display: none;
+  }
+}

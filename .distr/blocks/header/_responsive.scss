@@ -1,0 +1,137 @@
+@media (max-width: 1199px) {
+  .header {
+    height: auto;
+
+    &__logo {
+      img {
+        width: 325px;
+      }
+    }
+
+    .row {
+      padding-top: 26px;
+      padding-bottom: 24px;
+    }
+  }
+}
+
+@media (max-width: 991px) {
+  .header {
+    background: var(--c-main);
+    z-index: 111;
+
+    &__logo {
+      margin-right: auto;
+
+      img {
+        width: 270px;
+      }
+    }
+
+    &__social {
+      font-size: 0;
+      margin-left: 20px;
+      margin-right: 0;
+      margin-top: -3px;
+
+      img {
+        margin-right: 0 !important;
+      }
+    }
+
+    .row {
+      padding: 20px 0;
+    }
+
+    .nav {
+      width: 225px;
+      height: 350px;
+      top: -360px;
+
+      &__item {
+        margin-top: 10px;
+
+        &:first-child {
+          margin-top: 20px;
+        }
+      }
+
+      &__link {
+        font-size: 14px;
+      }
+    }
+
+    .toggle-menu {
+      display: block;
+    }
+  }
+}
+
+@media (max-width: 877px) {
+  .header {
+    background: #16171b;
+    border-bottom: 0;
+    box-shadow: 0px 6px 15px rgba(23, 23, 23, 0.25);
+
+    &__logo {
+      margin-left: 1px;
+      margin-right: auto;
+      margin-bottom: 0px;
+
+      img {
+        width: 267px;
+      }
+    }
+  }
+}
+
+@media (max-width: 800px) {
+  .callback {
+    display: flex !important;
+    height: auto;
+    right: 0;
+    position: fixed;
+    bottom: 0;
+    z-index: 12;
+    align-items: center;
+    justify-content: center;
+    font-size: 20px;
+    font-weight: bold;
+    text-transform: uppercase;
+    z-index: 991;
+
+    .btn {
+      max-width: 100%;
+      width: 100%;
+      clip-path: none;
+    }
+  }
+}
+
+@media (max-width: 575px) {
+  .header {
+    border-bottom: none;
+
+    &__logo {
+      img {
+        width: 255px;
+      }
+    }
+
+    .row {
+      height: 68px;
+      padding-top: 0;
+      border-bottom: none;
+      padding-bottom: 0;
+      align-items: center;
+    }
+
+    &__social {
+      margin-left: 5px;
+    }
+
+    .toggle-menu {
+      margin-left: 5px;
+    }
+  }
+}

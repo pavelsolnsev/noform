@@ -1,0 +1,114 @@
+.first {
+    background-image: url(../img/first/bg.jpg);
+    background-size: cover;
+    background-position: center bottom;
+    color: #fff;
+    padding-top: 190px;
+    padding-bottom: 70px;
+
+    &__name {
+        width: 263px;
+        height: 113px;
+        background-image: url(../img/first/plate.svg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        display: inline-block;
+        position: absolute;
+        bottom: 110px;
+        right: 50%;
+        margin-right: -723px;
+        box-sizing: border-box;
+
+        .text {
+            position: absolute;
+            font-size: 22px;
+            font-weight: 500;
+            color: var(--c-main);
+            line-height: 22px;
+            text-align: right;
+            text-transform: uppercase;
+            padding: 10px 15px;
+            padding-bottom: 7px;
+            margin-top: 13px;
+            margin-left: 36px;
+        }
+    }
+
+    &__play {
+        position: absolute;
+        display: flex;
+        align-items: center;
+        font-size: 22px;
+        font-weight: bold;
+        color: #fff;
+        text-align: right;
+        bottom: 40px;
+        left: 50%;
+        line-height: 1.2;
+        margin-left: -40px;
+
+        &:hover {
+            color: var(--c-yellow);
+
+            img {
+                transform: rotate(90deg);
+            }
+        }
+
+        img {
+            position: relative;
+            left: -25px;
+            transition: transform .7s ease;
+        }
+    }
+
+    &__img {
+        position: absolute;
+        bottom: 0;
+        right: 50%;
+        margin-right: -960px;
+        max-height: 97%;
+    }
+
+    h1 {
+        font-size: 70px;
+        line-height: 1.1;
+        font-weight: 900;
+        margin-bottom: 25px;
+    }
+
+    &__desc {
+        font-size: 26px;
+        font-weight: 500;
+        line-height: 1.3;
+        margin-bottom: 10px;
+    }
+
+    p {
+        font-size: 24px;
+        font-weight: 500;
+        line-height: 1.3;
+        margin-bottom: 30px;
+    }
+
+    &__row {
+        display: flex;
+        align-items: center;
+        position: relative;
+        padding-left: 70px;
+        margin-bottom: 17px;
+
+        img {
+            position: absolute;
+            left: 0;
+            top: 0;
+        }
+
+        &-title {
+            font-size: 18px;
+            font-weight: 500;
+            line-height: 1.4;
+        }
+    }
+}

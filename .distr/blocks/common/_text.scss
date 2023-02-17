@@ -1,0 +1,80 @@
+
+.fw-light { font-weight: 300; }
+.fw-normal { font-weight: normal; }
+.fw-medium { font-weight: 500; }
+.fw-bold { font-weight: bold; }
+.fw-xbold { font-weight: 800; }
+.fw-black { font-weight: 900; }
+
+.violet {	color: $violet; }
+.yellow {	color: $yellow; }
+.blue {	color: $blue; }
+
+.sup {
+	vertical-align: super;
+}
+
+.text-gradient {
+	-webkit-background-clip: text !important;
+	-webkit-text-fill-color: transparent;
+	background-size: 0 0 !important;
+	-webkit-background-size: contain !important;
+}
+
+
+h1 {
+	font-weight: bold;
+font-size: 54px;
+line-height: 116%;
+text-align: center;
+	margin: 0;
+}
+h2 {
+	font-size: 74px;
+	font-weight: bold;
+	line-height: 83%;
+}
+h3 {
+	font-size: 56px;
+	font-weight: normal;
+	line-height: 103%;
+}
+h4 {
+	font-size: 50px;
+	font-weight: bold;
+	line-height: 83%;
+}
+h5 {
+}
+h6 {
+}
+
+
+@media (max-width: 991px) {
+
+	h1 { font-size: 40px; }
+	h3 { font-size: 38px; }
+
+} // 991
+
+
+@media (max-width: 767px) {
+
+	h1 { font-size: 30px; }
+	h2 { font-size: 30px; }
+	h3 { font-size: 18px; }
+	h4 { font-size: 24px; }
+
+} // 767
+
+
+/* Lists */
+.list {
+	&-dashed {
+		@include list-dashed;
+	}
+
+	&-dotted {
+		@include list-dotted;
+	}
+}

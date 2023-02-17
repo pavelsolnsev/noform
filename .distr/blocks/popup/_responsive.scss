@@ -1,0 +1,57 @@
+@media (max-width: 991px) {
+  #modal-thanks h2 {
+    font-size: 30px;
+  }
+  #modal-thanks .btn br {
+    display: none;
+  }
+  #modal-thanks .btn {
+    font-size: 14px;
+  }
+  #modal-thanks {
+    max-width: 480px;
+  }
+}
+
+@media (max-width: 767px) {
+  #modal-thanks {
+    max-width: 340px;
+    padding: 60px 45px;
+    h2 {
+      font-size: 20px;
+    }
+    p {
+      font-size: 14px;
+    }
+  }
+  .fancybox-slide--html .fancybox-close-small {
+    top: 15px;
+    right: 15px;
+  }
+}
+
+@media (max-width: 575px) {
+  #modal-thanks {
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+  #modal-form {
+    padding: 20px 15px;
+    padding-top: 60px;
+    .checkbox {
+      font-size: 12px;
+    }
+    input {
+      height: 50px;
+    }
+    .form__lines {
+      padding-bottom: 110px;
+    }
+    .last__feedback {
+      .h1 {
+        font-size: 22px !important;
+        margin-bottom: 15px;
+      }
+    }
+  }
+}

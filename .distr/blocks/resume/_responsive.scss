@@ -1,0 +1,124 @@
+
+@media (max-width: 1400px) {
+  .resume {
+    .programm__img2 {
+        display: none;
+    }
+    &__i {
+        &-title {
+            font-size: 18px;
+        }
+    }
+    &__video {
+        margin-top: -110px;
+        left: -100px;
+        margin-bottom: 20px;
+        &-title {
+            margin-top: -30px;
+            left: -60px;
+        }
+        img {
+            width: 300px;
+        }
+    }
+    &__name {
+        font-size: 40px;
+    }
+  }
+}
+
+@media (max-width: 1300px) {
+    .resume {
+        background: linear-gradient(to right, #ded227, #e1d92f);
+        margin-top: 0;
+        padding-top: 100px;
+        padding-bottom: 70px;
+        min-height: auto;
+    }
+}
+
+@media (max-width: 1100px) {
+    .resume {
+        margin-top: 0;
+        background: none;
+        background: var(--c-yellow);
+        padding-top: 70px;
+        &__i {
+            margin-bottom: 15px;
+            &-nmb {
+                width: 50px;
+                height: 50px;
+                font-size: 26px;
+                min-width: 50px;
+                margin-right: 10px;
+            }
+            &-title {
+                font-size: 14px;
+            }
+        }
+        &__ps {
+            font-size: 16px;
+        }
+        &__hh {
+            font-size: 30px;
+            margin-bottom: 10px;
+        }
+        &__el {
+            font-size: 14px;
+            padding: 10px;
+            background: none!important;
+            border: 1px solid var(--c-main);
+            min-height: auto;
+            height: auto;
+            width: auto;
+            min-width: auto;
+        }
+        &__video {
+            margin-top: 0;
+            left: -15px;
+            margin-bottom: 0;
+            &-title {
+                margin-left: 0;
+                margin-right: 0;
+                left: 280px;
+                position: absolute;
+                margin-top: 0;
+                top: 50px;
+            }
+        }
+        &__block {
+            padding: 15px;
+        }
+        &__left {
+            width: 100%;
+        }
+        &__right {
+            width: 100%;
+        }
+    }
+}
+
+@media (max-width: 575px) {
+    .resume {
+        padding-bottom: 0;
+        padding-top: 40px;
+        &__block {
+            max-width: none;
+            width: calc(100 + 30px);
+            margin-left: -15px;
+            margin-right: -15px;
+            &-wrap {
+                background: none;
+                box-shadow: none;
+            }
+        }
+        &__video {
+            img {
+                width: 200px;
+            }
+            &-title {
+                left: 185px;
+            }
+        }
+    }
+}
